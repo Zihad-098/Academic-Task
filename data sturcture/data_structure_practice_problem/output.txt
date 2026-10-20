@@ -1,0 +1,4 @@
+This is the array = 7 3 4 2 9 21 15 23 
+Sorted array = 2 3 4 7 9 15 21 23 
+Now searching the code !!
+23 found at the location 8.

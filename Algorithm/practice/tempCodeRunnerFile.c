@@ -1,0 +1,2 @@
+ // bubbleSort (arr,n);
+    // printAr

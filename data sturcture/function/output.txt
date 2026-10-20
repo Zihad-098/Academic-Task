@@ -1,0 +1,2 @@
+input the number = 10 25 30
+Captial nuber is  = 30 

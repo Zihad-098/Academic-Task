@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="studentForm">
+
+        Name:
+        <input type="text" name="name" value="Rahim"><br><br>
+
+        Age:
+        <input type="number" name="age" value="20"><br><br>
+
+        Department:
+        <input type="text" name="dept" value="CSE"><br><br>
+
+    </form>
+    <button onclick="showdata()">Show data</button>
+
+    <p id="result"></p>
+
+    <script>
+        function showdata() {
+            const form = document.forms["studentForm"];
+            let text = "" ;
+
+            for (let i=0 ; i<form.length;i++){
+                text += form.elements[i].value + "<br>";
+            }
+            document.getElementById("result").innerHTML = text;
+        }
+    </script>
+</body>
+
+</html>

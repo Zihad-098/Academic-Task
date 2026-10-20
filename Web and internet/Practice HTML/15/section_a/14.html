@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 30px;
+        }
+        form {
+            width: 500px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input,select,textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 50px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+        input[type="radio"]{
+            width: auto;
+            margin-bottom: 15px;
+        }
+        input[type="file"]{
+            padding:5px;
+        }
+        button {
+            display: block;
+            margin: 0 auto;
+            padding: 10px 30px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 10px;
+            border: none;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="">Full Name :</label>
+        <input type="text"> <br><br>
+        <label for="">Father's Name :</label>
+        <input type="text"><br><br>
+        <label for="">Mother's Name :</label>
+        <input type="text"><br><br>
+        <label for="">Date of Birth :</label>
+        <input type="date"><br><br>
+        <label for="">Gender :</label>
+        <input type="radio" name="1">
+        <label for="">Male</label>
+        <input type="radio"  name="1">
+        <label for="">Female</label>
+        <input type="radio"  name="1">
+        <label for="">Other</label><br><br>
+        <label for="">Email :</label>
+        <input type="mail"><br><br>
+        <label for="">Phone :</label>
+        <input type="number"><br><br>
+        <label for="">Address :</label>
+        <textarea name="" id=""></textarea><br><br>
+        <label for="">Department :</label>
+        <select name="" id="">
+            <option value="">CSE</option>
+            <option value="">EEE</option>
+            <option value="">BBA</option>
+        </select><br><br>
+        <label for="">Previous GPA :</label>
+        <input type="number"><br><br>
+        <label for="">Photograph :</label>
+        <input type="file" accept="image" required><br><br>
+        <button>Submit</button>
+    
+    </form>
+</body>
+</html>

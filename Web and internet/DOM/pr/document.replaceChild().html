@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <p id="demo">hello</p>
+    </div>
+
+    <script>
+        const x = document.getElementById ("container");
+
+        const y = document.getElementById ("demo");
+
+        const newPara = document.createElement ("p");
+        newPara.innerHTML = "Hi";
+
+        x.replaceChild (newPara , y);
+    </script>
+</body>
+</html>

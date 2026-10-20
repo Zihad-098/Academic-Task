@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="msg">Hello Hot Pie</h2>
+    <button id="mybutton">Click me</button>
+
+    <script>
+        const x = document.getElementById("mybutton");
+
+        x.addEventListener("click",function(){
+            document.getElementById("msg").innerHTML="My girl";
+        });
+    </script>
+</body>
+</html>

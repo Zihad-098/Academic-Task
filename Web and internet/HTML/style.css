@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #f4f4f4;
+    color: #333;    
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+nav {
+    background: #34495e;
+    text-align: center;
+    padding: 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+section {
+    background: white;
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+}
+h2 {
+    margin-bottom:20px ;
+    color: #2c3e50;
+}
+img {
+    width: 180px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+ul {
+    margin-left: 25px;
+    line-height: 35px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,th,td {
+    border: 1px,solid,gray;
+}
+th {
+    background: #3498db;
+    color: white;
+    padding: 10px;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+}
+
+.card{
+    background: #ecf0f1;
+    padding: 20px;
+    margin: 15px;
+    border-left: 6px solid #3498db;
+
+}
+
+.card:hover{
+    background: #d6eaf8;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input,textarea{
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background: #3498db;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+}
+footer{
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}

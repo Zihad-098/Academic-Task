@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <p id="old">Old Paragraph</p>
+    </div>
+
+    <script>
+        const x = document.getElementById("container");
+
+        const newPara = document.createElement("p")
+        newPara.innerHTML = "New paragraph";
+
+        const old = document.getElementById("old")
+
+        x.replaceChild (newPara,old);
+    </script>
+</body>
+</html>

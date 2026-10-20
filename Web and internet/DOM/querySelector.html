@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="hot">Hot pie</p>
+    <p class="hot">Hot Pizza</p>
+    <p id="hot">Hot Coffee</p>
+    <p id="hot">Hot pie</p>
+    <script>
+        const element = document.querySelector(".hot");
+        element.innerHTML = "First Hot item";
+
+        const change = document.querySelector("#hot");
+        change.innerHTML = "First chnage the id"
+    </script>
+    
+</body>
+</html>

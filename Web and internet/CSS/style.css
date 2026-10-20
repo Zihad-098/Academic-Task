@@ -1,0 +1,42 @@
+  h1 {
+    color: rgb( 127,89,165);
+    text-align: center;
+    text-decoration:overline;
+    text-shadow:2px 2px;
+    letter-spacing: 1pt;
+    text-transform: capitalize;
+
+  }
+  #p1 {
+    background-color: red;
+    font: optional;
+  }
+  #p2 {
+    background-color: yellow;
+  }
+  p {
+      color: slateblue;
+      background-color: cadetblue;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 26pt;
+      font-weight: bold;
+      font-style: italic;
+  }
+  /* 2nd html */
+  table {
+    
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+    
+  }
+  th,td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center
+    ;
+  }
+  th {
+    background-color: gray;
+    color: aqua;
+  }

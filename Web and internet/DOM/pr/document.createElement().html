@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo">
+        <p>Old paragraph</p>
+    </div>
+
+    <script>
+        const newPara = document.createElement("p");
+        newPara.innerHTML = "Old paragraph";
+
+        const then = document.getElementById ("demo");
+        then.appendChild (newPara);
+    </script>
+</body>
+</html>
